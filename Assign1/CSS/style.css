@@ -1,0 +1,204 @@
+body {
+    background: url(../images/bodybg.png);
+    /*background-size: cover;*/
+  }
+#page{
+    margin: 0 auto;
+  padding: 0;
+  max-width: 1230px;
+  width: 100%;
+  overflow: hidden !important;
+  background: #f8f9fa;
+  text-align: center;
+  /* font-family: 'Roboto', sans-serif !important; */
+}
+
+/* ----------Header---------- */
+
+.nav-bg{
+    background-color: #36405A !important;
+}
+.brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.menu-option{
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.btn-text{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+}
+
+/* ----------Section1---------- */
+.sec-padding{
+    padding: 8% 0;
+}
+.sec-head{
+    font-size: 32px;
+    color: #3b354f;
+}
+.sec-sub-head{
+    font-size: 18px;
+}
+
+
+/* ----------Section2---------- */
+.sec2-counter-bg{
+    background: #eee;
+}
+.counter-number{
+    color: #6a4aa8;
+    font-size: 34px;
+    font-weight: 500;
+}
+.text-counter{
+    color:#6a4aa8; 
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 18px;
+    /* font-weight: 500; */
+}
+
+
+/* ----------Section3---------- */
+.sec3-bg-img{
+    background-image: url(../images/paralax_img.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+}
+#sec3{
+    position: relative !important;
+}
+.purple-text-box{
+    background: rgb(123 113 150 / 90%);
+    content: "";
+    width: 60%;
+  padding: 40px;
+    
+}
+
+
+/* ----------Section4---------- */
+.sec4-bg-img{
+    background-image: url(../images/Product_1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+}
+.sec4-img-overlay{
+    background: #303287a8;
+    content: "";
+  padding: 10px;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+/* ----------Section5---------- */
+.sec5-ul{
+    font-size: 14px;
+}
+.img-overlay-bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.overlay-img-prperty{
+    position: relative !important;
+    overflow: hidden !important;
+}
+.sec5-img-overlay{
+    background: #3f176c91;
+    content: "";
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* ----------Section6---------- */
+.sec6-img-overlay1{
+    background: rgb(123 113 150 / 1);
+    content: "";
+    font-family: 'Roboto', sans-serif !important;
+  padding: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sec6-img-overlay2{
+    background: rgb(123 113 150 / 1);
+    content: "";
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* ----------Section7---------- */
+.help-text{
+    color: #3b354f;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 28px;
+    /* font-weight: bolder; */
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.btn2{
+    color: #3b354f !important; 
+    border:  2px solid #3b354f !important;
+}
+
+
+/* ----------Footer---------- */
+.footer-bg{
+    background-color: #363f5c;
+}
+.footer-head{
+    font-family: 'Roboto', sans-serif !important;
+    color: #eee;
+    font-size: 15px;
+    font-weight: 500;
+    /* letter-spacing: 2px; */
+    transition: all 0.3;
+}
+.footer-link{
+    color: #eee;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all 0.3;
+}
+
+
+/* ----------Footer2---------- */
+.footer2-text{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px;
+    /* font-weight: 400;  */
+}
+
+
+/* ----------Media Query---------- */
+
+@media (max-width: 680px) {
+    .hero-section{
+        
+    }
+    .purple-text-box{
+        width: 100%;
+      padding: 4px;  
+    }
+    .help-text{
+        font-size: 16px;
+        word-spacing: 1px;
+    }
+    .btn-2{
+        font-size: 12px !important;
+    }
+}
