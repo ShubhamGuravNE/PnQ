@@ -100,6 +100,24 @@ a{
 }
 
 
+.shopping-card-body {
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.cart-btn{
+      background-color: #3f176c99 !important;
+      color: #eaeaea !important;
+      font-weight: bold !important;
+      transition: 0.3s;
+}
+.cart-btn:hover{
+    background-color: #6a4aa8 !important;
+      color: #fff !important;
+      transition: 0.3s;
+
+}
+
+
 /* ----------Section5---------- */
 .sec5-ul{
     font-size: 14px;

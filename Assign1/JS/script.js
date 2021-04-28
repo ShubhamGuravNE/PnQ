@@ -44,3 +44,22 @@ $(window).scroll(function () {
     }
 });
 // Animation End
+
+// Add Product to cart
+var addBtn = document.getElementsByClassName('cart-btn');
+var addCount = document.getElementById('add-count');
+let count = 0;
+
+// var proName = document.getElementById('add-cart').name;
+var proName = document.getElementsByClassName('cart-btn').name;
+
+
+function product(){
+    alert( proName + " is Selected");
+
+    count += 1;
+    document.getElementById('add-count').innerHTML = count;
+    addCount.appendChild(count);
+
+    
+}
