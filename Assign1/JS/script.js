@@ -59,7 +59,6 @@ function product(){
 
     count += 1;
     document.getElementById('add-count').innerHTML = count;
-    addCount.appendChild(count);
 
     
 }
