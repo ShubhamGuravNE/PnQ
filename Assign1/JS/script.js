@@ -47,7 +47,6 @@ $(window).scroll(function () {
 
 // Add Product to cart
 var addBtn = document.getElementsByClassName('cart-btn');
-console.log("addBtn",addBtn[0].target);
 var addCount = document.getElementById('add-count');
 let count = 0;
 
