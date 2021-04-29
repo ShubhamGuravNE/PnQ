@@ -47,18 +47,14 @@ $(window).scroll(function () {
 
 // Add Product to cart
 var addBtn = document.getElementsByClassName('cart-btn');
+console.log("addBtn",addBtn[0].target);
 var addCount = document.getElementById('add-count');
 let count = 0;
 
-// var proName = document.getElementById('add-cart').name;
-var proName = document.getElementsByClassName('cart-btn').name;
-
-
-function product(){
-    alert( proName + " is Selected");
+function product(event){
+    alert( event.target.name + " is Selected");
 
     count += 1;
     document.getElementById('add-count').innerHTML = count;
-
     
 }
