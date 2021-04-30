@@ -28,6 +28,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
 .btn-text{
     font-family: 'Roboto', sans-serif !important;
     font-size: 14px !important;
@@ -104,17 +105,16 @@ a{
     background-color: #fff;
     margin-bottom: 30px;
 }
-.cart-btn{
+.cartBtn{
       background-color: #3f176c99 !important;
       color: #eaeaea !important;
       font-weight: bold !important;
       transition: 0.3s;
 }
-.cart-btn:hover{
+.cartBtn:hover{
     background-color: #6a4aa8 !important;
       color: #fff !important;
       transition: 0.3s;
-
 }
 
 
@@ -218,3 +218,12 @@ a{
         font-size: 12px !important;
     }
 }
+
+
+/* var mylist = document.getElementById('mylist');
+mylist.insertAdjacentHTML('beforeend', '<li>third</li>');
+
+<ul id="mylist">
+ <li>first</li>
+ <li>second</li>
+</ul> */

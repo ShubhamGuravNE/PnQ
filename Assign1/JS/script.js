@@ -46,14 +46,51 @@ $(window).scroll(function () {
 // Animation End
 
 // Add Product to cart
-var addBtn = document.getElementsByClassName('cart-btn');
+var addBtn = document.getElementsByClassName('cartBtn');
 var addCount = document.getElementById('add-count');
+var price = document.getElementsByClassName('shopping-card-price');
 let count = 0;
+var na = document.getElementsByClassName('name')[0];
+var x = na.childNodes[0].nodeValue;
 
 function product(event){
+    
+    
     alert( event.target.name + " is Selected");
 
     count += 1;
     document.getElementById('add-count').innerHTML = count;
+
+
+    /*-------To Show Product-------*/
+    var li = document.createElement("li");         
+    li.setAttribute("class", "show-product");
+    var node = document.createTextNode(x);
+   var node = document.getElementsByClassName("show-product").innerHTML = x;
+
     
+
+    li.appendChild(node);
+    var drop = document.getElementById("drop");
+    drop.appendChild(li);
+
+    console.log(event);
+
 }
+
+// --------------------------------------------
+
+// var li = document.createElement("li");
+// li.setAttribute("class", "show-product");
+// var node = document.createTextNode("selcted");
+
+// // function dropD() {
+// //     document.getElementsByName(selcted).innerHTML = 
+// // }
+
+// li.appendChild(node);
+// var drop = document.getElementById("drop");
+// drop.appendChild(li);
+
+
+// -----------------------------------------

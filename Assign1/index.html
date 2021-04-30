@@ -51,7 +51,17 @@
                             <a class="nav-link" href="#sec1">ABOUT</a>
                             <a class="nav-link" href="#sec7">CONTACT US</a>
                             <a class="nav-link" href="#sec6">GALLERY</a>
-                            <a class="nav-link text-white" href="#"><i class="fa fa-shopping-cart fa-1x"></i> <span id="add-count">  </span></a>
+                            <!-- <a class="nav-link text-white" href="#"></a> -->
+                            <span class="dropstart">
+                                <a class="nav-link text-dark bg-light px-4 rounded dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                    <i class="fa fa-shopping-cart fa-1x"></i>  <span id="add-count"></span>
+                                </a>
+                                <ul id="drop" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Selected Products</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -251,15 +261,15 @@
                         <div class="product1 shopping-card col-md-4 col-xl-3 col-sm-6">
                             <img src="images/store-1.jpg" class="product1-hover-img img-fluid" alt="">
                             <div class="card-body shopping-card-body">
-                                <h5>Checks Trousers</h5>
+                                <h5 class="name">Checks Trousers</h5>
                                 <p class="card-sub-title">Pants</p>
 
                                 <div class="d-flex">
                                     <div class="price py-1 w-25">
-                                        <span class="shopping-card-price"><b> $113.00</b></span>
+                                        <span class="shopping-card-price" value="123" name="$113"><b> $113.00</b></span>
                                     </div>
                                     <div class="cart w-75 text-end">
-                                        <a href="#" class="btn rounded-pill cart-btn" onclick="product(event)" type="button" name="Checks Trousers">
+                                        <a href="#" class="btn rounded-pill cartBtn" onclick="product(event)" value="123" type="button" name="Checks Trousers">
                                             <i class="fa fa-shopping-cart fa-1x"></i> Add</span>
                                         </a>
                                     </div>
@@ -271,7 +281,7 @@
                         <div class="product2 shopping-card col-md-4 col-xl-3 col-sm-6">
                             <img src="images/store-2.jpg" class="product2-hover-img img-fluid" alt="">
                             <div class="card-body shopping-card-body">
-                                <h5>Jeans Jackets</h5>
+                                <h5 class="name">Jeans Jackets</h5>
                                 <p class="card-sub-title">Jacket</p>
 
                                 <div class="d-flex">
@@ -279,7 +289,7 @@
                                         <span class="shopping-card-price"><b> $113.00</b></span>
                                     </div>
                                     <div class="cart w-75 text-end">
-                                        <a href="#" class="btn rounded-pill cart-btn" onclick="product(event)" type="button" name="Jeans Jacket">
+                                        <a href="#" class="btn rounded-pill cartBtn" onclick="product(event)" type="button" name="Jeans Jacket">
                                             <i class="fa fa-shopping-cart fa-1x"></i> Add</span>
                                         </a>
                                     </div>
@@ -291,7 +301,7 @@
                         <div class="product3 shopping-card col-md-4 col-xl-3 col-sm-6">
                             <img src="images/store-3.jpg" class="product3-hover-img img-fluid" alt="">
                             <div class="card-body shopping-card-body">
-                                <h5>Sports Jackets</h5>
+                                <h5 class="name">Sports Jackets</h5>
                                 <p class="card-sub-title">Jacket</p>
 
                                 <div class="d-flex">
@@ -299,7 +309,7 @@
                                         <span class="shopping-card-price"><b> $113.00</b></span>
                                     </div>
                                     <div class="cart w-75 text-end">
-                                        <a href="#" class="btn rounded-pill cart-btn" onclick="product(event)" type="button" name="Sport Jacket">
+                                        <a href="#" class="btn rounded-pill cartBtn" onclick="product(event)" type="button" name="Sport Jacket">
                                             <i class="fa fa-shopping-cart fa-1x"></i> Add</span>
                                         </a>
                                     </div>
@@ -311,7 +321,7 @@
                         <div class="product4 shopping-card col-md-4 col-xl-3 col-sm-6">
                             <img src="images/store-4.jpg" class="product4-hover-img img-fluid" alt="">
                             <div class="card-body shopping-card-body">
-                                <h5>Striped Sweatshirt</h5>
+                                <h5 class="name">Striped Sweatshirt</h5>
                                 <p class="card-sub-title">Sweater</p>
 
                                 <div class="d-flex">
@@ -319,7 +329,7 @@
                                       <span class="shopping-card-price"><b> $113.00</b></span>
                                     </div>
                                     <div class="cart w-75 text-end">
-                                      <a href="#" class="btn rounded-pill cart-btn" onclick="product(event)" type="button" name="Striped Sweatshirt">
+                                      <a href="#" class="btn rounded-pill cartBtn" onclick="product(event)" type="button" name="Striped Sweatshirt">
                                         <i class="fa fa-shopping-cart fa-1x"></i> Add</span>
                                       </a>
                                     </div>
